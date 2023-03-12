@@ -1,0 +1,30 @@
+body {
+    width: 1920px;
+    background-color: rgb(243, 243, 226);
+}
+.header{
+    width: 60%;
+    margin: 0 auto;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+}
+.block{
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid grey;
+}
+.block__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.block__image-wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.block__image{
+    width: 100%;
+}
